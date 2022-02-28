@@ -8,6 +8,12 @@ $(function() {
     setInterval(function(){
         $(".js-rotateslider-arrow.right").trigger("click");
      },1500);  
+    
+    window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-NKXLFHKVZF');
   
 });
 
