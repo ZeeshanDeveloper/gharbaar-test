@@ -7,7 +7,7 @@ $(function() {
 
     setInterval(function(){
         $(".js-rotateslider-arrow.right").trigger("click");
-     },1500);  
+     },1500);
     
     window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
